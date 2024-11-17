@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Alfredo</title>
+    <!-- Enlazar Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Enlazar la biblioteca AOS para animaciones -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="Frontend/css/inicio.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Portafolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proyectos">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#habilidades">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección "Sobre mí" -->
+    <section id="about" data-aos="fade-up" class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="display-4">Hola, soy Saúl Mino C</h2>
+                <p class="lead">Estudiante en licenciatura en ciencias de la computacion en la Benemerita Universidad Autonoma de Puebla</p>
+                <p class="lead">Desarrollador en crecimiento, enfocado en aplicaciones móviles, desarrrollo web y proyectos innovadores.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="Frontend/imagenes/Android robot dressed as Goku.png" class="img-fluid rounded-circle" alt="Foto de Saul">
+            </div>
+        </div>
+    </section>
+
+        <!-- Sección de Proyectos -->
+        <section id="proyectos">
+            <div class="container">
+                <h2 class="text-center mb-4">Mis Proyectos</h2>
+                <div class="row">
+                    <!-- Proyecto 1 -->
+                    <div class="col-md-4">
+                        <div class="card" data-aos="fade-up">
+                            <img src="Frontend/imagenes/icono1.jpg" class="card-img-top" alt="Proyecto 1">
+                            <div class="card-body">
+                                <h5 class="card-title">barberia</h5>
+                                <p class="card-text">Pagina para administrador y cliente</p>
+                                <a href="https://github.com/saulminoC/barberia" class="btn btn-primary" target="_blank">Ir a GITHUb</a> <!-- Link añadido aquí -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Proyecto 2 -->
+                    <div class="col-md-4">
+                        <div class="card" data-aos="fade-up" data-aos-delay="200">
+                            <img src="ruta-a-imagen2.jpg" class="card-img-top" alt="Proyecto 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Proyecto 2</h5>
+                                <p class="card-text">Breve descripción de este proyecto.</p>
+                                <a href="https://enlace-del-proyecto2.com" class="btn btn-primary" target="_blank">Ver Proyecto</a> <!-- Link añadido aquí -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Proyecto 3 -->
+                    <div class="col-md-4">
+                        <div class="card" data-aos="fade-up" data-aos-delay="400">
+                            <img src="ruta-a-imagen3.jpg" class="card-img-top" alt="Proyecto 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Proyecto 3</h5>
+                                <p class="card-text">Breve descripción del proyecto 3.</p>
+                                <a href="https://enl" class="btn btn-primary" target="_blank">Ver Proyecto</a> <!-- Link añadido aquí -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!--<div id="preloader">
+        <div class="spinner"></div>
+    </div>-->
+
+<!-- Sección de Habilidades Técnicas -->
+<section id="habilidades" class="container py-5">
+    <h2 class="text-center mb-4">Mis Habilidades técnicas</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <h5>HTML</h5>
+            <div class="star-rating" data-rating="4">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9734;</span>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <h5>CSS</h5>
+            <div class="star-rating" data-rating="4">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9734;</span>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <h5>JavaScript</h5>
+            <div class="star-rating" data-rating="3">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9734;</span>
+                <span class="star">&#9734;</span>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <h5>PHP</h5>
+            <div class="star-rating" data-rating="2">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9734;</span>
+                <span class="star">&#9734;</span>
+                <span class="star">&#9734;</span>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <h5>SQL</h5>
+            <div class="star-rating" data-rating="3">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9734;</span>
+                <span class="star">&#9734;</span>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <h5>Diseño UI/UX</h5>
+            <div class="star-rating" data-rating="3">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9734;</span>
+                <span class="star">&#9734;</span>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <h5>Git</h5>
+            <div class="star-rating" data-rating="3">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9734;</span>
+                <span class="star">&#9734;</span>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <h5>Bootstrap</h5>
+            <div class="star-rating" data-rating="3">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9734;</span>
+                <span class="star">&#9734;</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Sección de Habilidades Blandas -->
+<section id="habilidades-blandas" class="container py-5">
+    <h2 class="text-center mb-4">Mis Habilidades blandas</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <h5>Gestión de proyectos</h5>
+            <div class="star-rating" data-rating="3">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9734;</span>
+                <span class="star">&#9734;</span>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <h5>Aprendizaje autónomo</h5>
+            <div class="star-rating" data-rating="4">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9734;</span>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <h5>Resolución de problemas</h5>
+            <div class="star-rating" data-rating="4">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9734;</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Redes Sociales -->
+<section id="social" class="text-center py-4">
+    <a href="https://linkedin.com" target="_blank" class="social-icon">
+        <i class="fab fa-linkedin fa-2x"></i>
+    </a>
+    <a href="https://github.com" target="_blank" class="social-icon">
+        <i class="fab fa-github fa-2x"></i>
+    </a>
+    <a href="https://twitter.com" target="_blank" class="social-icon">
+        <i class="fab fa-twitter fa-2x"></i>
+    </a>
+</section>
+
+
+        <!-- Sección de Contacto -->
+    <section id="contacto" class="container py-5">
+        <h2 class="text-center mb-4">Contacto</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <form action="procesar_formulario.php" method="POST" class="contact-form">
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="asunto" class="form-label">Asunto</label>
+                        <input type="text" class="form-control" id="asunto" name="asunto" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensaje" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="mensaje" name="mensaje" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Pie de página -->
+    <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; 2024 Alfredo. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Script de Bootstrap y AOS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init(); // Inicializa las animaciones de AOS
+    </script>
+</body>
+</html>
